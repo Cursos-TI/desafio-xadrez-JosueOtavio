@@ -27,18 +27,5 @@ int main() {
         k++;
     } while (k < 8);
 
-    printf("\n"); // Linha em branco para separar as peças
-
-    // Movimento do Cavalo (usando for e while aninhados)
-    printf("Movimento do Cavalo:\n");
-    for (int l = 0; l < 2; l++) { // Move duas casas para baixo
-        printf("Baixo\n");
-    }
-    int m = 0;
-    while (m < 1) { // Move uma casa para a esquerda
-        printf("Esquerda\n");
-        m++;
-    }
-
     return 0;
 }
